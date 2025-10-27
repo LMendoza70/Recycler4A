@@ -1,11 +1,13 @@
 package com.example.recycler4a.Modelos
 
-class LaptopModel {
+import com.example.recycler4a.Contratos.ContratoLaptop
+
+class LaptopModel: ContratoLaptop.Modelo {
     //declaramos la lista de laptops que tenemos
     // para deplegar en nuestro recycler
     lateinit var lista: List<LaptopData>
 
-    fun loadData(): List<LaptopData>{
+    override fun LoadData(): List<LaptopData>{
         lista=listOf(
             LaptopData(1, "ThinkPad T16", "Lenovo",
                 "Equipo de alto rendimiento",16,512,
