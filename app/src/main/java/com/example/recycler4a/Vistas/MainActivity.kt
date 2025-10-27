@@ -1,4 +1,4 @@
-package com.example.recycler4a
+package com.example.recycler4a.Vistas
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -9,9 +9,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recycler4a.Contratos.ContratoLaptop
 import com.example.recycler4a.Modelos.LaptopData
-import com.example.recycler4a.Modelos.LaptopModel
 import com.example.recycler4a.Presentadores.LaptopPresentador
-import com.example.recycler4a.Vistas.LaptopAdapter
+import com.example.recycler4a.R
 
 class MainActivity : AppCompatActivity(), ContratoLaptop.Vista {
 
